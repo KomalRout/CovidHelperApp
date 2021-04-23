@@ -1,0 +1,143 @@
+<resources>
+    <string name="app_name">Covid Helper</string>
+    <string name="f1">Less than 100.4&#xb0;F(38&#xb0;)</string>
+    <string name="f2">Between 100.4-103.9&#xb0;F(38-39&#xb0;C)</string>
+    <string name="f3">Between 104-106.7&#xb0;F(40-41.5&#xb0;C)</string>
+    <string name="f4">Greater than 106.7&#xb0;F(>41.5&#xb0;C)</string>
+    <string name="f5">Have not measured the temperature</string>
+    <string name="string1">\u25CFSevere,constant chest pain or pressure</string>
+    <string name="string2">\u25CFExtream difficulty in breathing</string>
+    <string name="string3">\u25CFSevere,constant light headedness</string>
+    <string name="string4">\u25CFSerious disorientation or unresponsiveness</string>
+    <string name="about">Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus."\n""\n"
+Most people infected with the COVID-19 virus will experience mild to moderate respiratory "\n" illness and recover without requiring special treatment.  Older people, and those with underlying "\n" medical problems like cardiovascular disease, diabetes, chronic respiratory disease, and cancer"\n" are more likely to develop serious illness."\n""\n"
+The best way to prevent and slow down transmission is to be well informed about the COVID-19 virus,"\n" the disease it causes and how it spreads. Protect yourself and others from infection by "\n"washing your hands or using an alcohol based rub frequently and not touching your face."\n""\n"
+The COVID-19 virus spreads primarily through droplets of saliva or discharge from the nose"\n" when an infected person coughs or sneezes, so it’s important that you also practice respiratory "\n"etiquette (for example, by coughing into a flexed elbow).</string>
+    <string name="page1">You should call the National Help Line number. Based on the reported symptoms, you should be treated immediately. </string>
+    <string name="a1">Under 18</string>
+    <string name="a2">Between 18 and 64</string>
+    <string name="a3">Above 64</string>
+    <string name="o1">Fever</string>
+    <string name="o2">Dry Cough</string>
+    <string name="o3">Fatigue</string>
+    <string name="o4">Loss of taste or smell</string>
+    <string name="o5">Shortness of breath</string>
+    <string name="o6">Running nose</string>
+    <string name="o7">Sore Throat</string>
+    <string name="o8">None</string>
+    <string name="d1">Asthma or chronic lung disease</string>
+    <string name="d2">Cancer treatments</string>
+    <string name="d3">Chronic Lung disease(COPD)</string>
+    <string name="d4">Heart disease</string>
+    <string name="d5">Diabetes</string>
+    <string name="d6">Pregnancy</string>
+    <string name="d7">Kidney Failure that needs dialysis</string>
+    <string name="d8">No existing conditions</string>
+    <string name="mcommon1">Fever</string>
+    <string name="mcommon2">Dry cough</string>
+    <string name="mcommon3">Tiredness</string>
+    <string name="lcommon1">Aches and pains</string>
+    <string name="lcommon2">Sore throat</string>
+    <string name="lcommon3">Diarrhoea</string>
+    <string name="lcommon4">Conjunctivitis</string>
+    <string name="lcommon5">Headache</string>
+    <string name="lcommon6">Loss of taste"\n" or smell</string>
+    <string name="s">Difficulty breathing "\n"or shortness of breath</string>
+    <string name="s1">Chest pain"\n" or pressure</string>
+    <string name="s2">Loss of speech"\n" or movement</string>
+    <string name="symp">Seek immediate medical attention if you have serious symptoms.  Always call before visiting your doctor or health facility."\n"
+    People with mild symptoms who are otherwise healthy should manage their symptoms at home."\n"
+    On average it takes 5–6 days from when someone is infected with the virus for symptoms to show,"\n"
+    however it can take up to 14 days.</string>
+
+    <string name="p1">Wash your hands"\n" regularly</string>
+    <string name="p3">Avoid touching"\n" your face</string>
+    <string name="p4">Cover your mouth"\n" while coughing"\n" or sneezing </string>
+    <string name="p5">Stay home if"\n" you feel unwell.</string>
+    <string name="p6"> Refrain "\n"from smoking</string>
+    <string name="p7"> Avoide unnecessary"\n" travel</string>
+    <string name="p8"> Stay away from "\n"large"\n" groups of people</string>
+
+    <string-array name="state">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttarakhand</item>
+        <item>Uttar Pradesh</item>
+        <item>West Bengal</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Chandigarh</item>
+        <item>Dadra and Nagar Haveli and Daman &amp; Diu</item>
+        <item>Delhi</item>
+        <item>Jammu &amp; Kashmir</item>
+        <item>Ladakh</item>
+        <item>Lakshadweep</item>
+        <item>Puducherry</item>
+    </string-array>
+    <string-array name="state_ph">
+        <item>0866-2410978</item>
+        <item>9436055743</item>
+        <item>6913347770</item>
+        <item>104</item>
+        <item>104</item>
+        <item>104</item>
+        <item>104</item>
+        <item>8558893911</item>
+        <item>104</item>
+        <item>104</item>
+        <item>104</item>
+        <item>04712552056</item>
+        <item>104</item>
+        <item>02026127394</item>
+        <item>3852411668</item>
+        <item>108</item>
+        <item>102</item>
+        <item>7005539653</item>
+        <item>9439994859</item>
+        <item>104</item>
+        <item>01412225624</item>
+        <item>104</item>
+        <item>04429510500</item>
+        <item>104</item>
+        <item>03812315879</item>
+        <item>104</item>
+        <item>18001805145</item>
+        <item>1800313444222,03323412600</item>
+        <item>03192232102</item>
+        <item>9779558282</item>
+        <item>104</item>
+        <item>011-22307145</item>
+        <item>01912520982, 0194-2440283</item>
+        <item>01982256462</item>
+        <item>104</item>
+        <item>104</item>
+        <item></item>
+    </string-array>
+    <string name="end_astric">* This is based on current understanding of the disease which is subject to change. Please do consult the doctor and take their
+    advice in case you are not feeling well.
+</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".screening_one"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp">
+
+    <TextView
+        android:layout_width="373dp"
+        android:layout_height="121dp"
+        android:text="*Is this an emergency?"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.092"
+        android:textStyle="bold"
+        android:id="@+id/title"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card1"
+        android:layout_below="@+id/title">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop and call national helpline number if your are experiencing :"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string1"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string2"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string3"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string4"
+                android:textSize="20dp"/>
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+                <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="I'm experiencing anyone of these"
+                        android:id="@+id/radio1"
+                        android:textSize="20dp"
+                        android:onClick="onRadioButtonClicked"
+                        android:clickable="false"/>
+                    <RadioButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radio2"
+                        android:text="I'm don't have any of these"
+                        android:textSize="20dp"
+                        android:onClick="onRadioButtonClicked"
+                        android:clickable="false"/>
+                </RadioGroup>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/card1"
+        android:text="Submit"
+        android:id="@+id/submit"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/submit"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="4dp"
+        android:background="#C3BCBC"
+        android:visibility="gone"
+        android:id="@+id/resultcard">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/page1"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textColor="#050505"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/resultcard"
+        android:layout_marginTop="10dp"
+        android:foregroundGravity="center"
+        android:layout_centerInParent="true"
+        app:cardCornerRadius="4dp"
+        android:background="#C3BCBC"
+        android:visibility="invisible"
+        android:id="@+id/helpcard"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Helpline Numbers"
+                android:layout_gravity="center_vertical"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textColor="#050505"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:padding="5dp"
+                android:layout_gravity="center_vertical"
+                android:layout_toRightOf="@+id/helptxt"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_baseline_arrow_forward_ios_24"/>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
+
+

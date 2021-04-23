@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kiit.myapplication">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/virus"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".VaccineInfo">
+        </activity>
+        <activity android:name=".Faqactivity" />
+        <activity android:name=".Helplinenumber" >
+        </activity>
+        <activity android:name=".SplashScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".OtpActivity" />
+        <activity android:name=".Login" />
+        <activity android:name=".EachDistrict" />
+        <activity android:name=".DistrictWise" />
+        <activity android:name=".EachState" />
+        <activity android:name=".DetailedNews" />
+        <activity android:name=".NewsMain" />
+        <activity android:name=".StateWise" />
+        <activity android:name=".Prevention" />
+        <activity android:name=".Symptoms" />
+        <activity android:name=".AboutCovid" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".CountryDetails" />
+        <activity android:name=".AffectedCountries" />
+        <activity android:name=".WorldData" />
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".screening_three" />
+        <activity android:name=".screening_two" />
+        <activity android:name=".screening_one" />
+    </application>
+
+</manifest>

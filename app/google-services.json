@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "502207364655",
+    "project_id": "covid-helper-99db7",
+    "storage_bucket": "covid-helper-99db7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502207364655:android:3c7ca8d1ca84569caa90da",
+        "android_client_info": {
+          "package_name": "com.example.kiit.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "502207364655-2k8744eamooustfi1frh16mac87e5g3b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD56lWtKXbkDf-cII6zLTprW289Vs2i1Qk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "502207364655-2k8744eamooustfi1frh16mac87e5g3b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
